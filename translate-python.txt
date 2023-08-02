@@ -1,0 +1,18 @@
+# 1 
+> import this code below :
+from django.utils.translation import gettext_lazy  as _
+
+# 2
+> write the string like this :
+msg = _('this is a random message')
+
+# 3
+> in shell:
+django-admin makemessages
+
+# 4
+> translate the string in *.po file 
+
+# 5 
+> in shell :
+django-admin compilemessages
