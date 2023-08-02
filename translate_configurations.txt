@@ -1,5 +1,6 @@
 # 1
-> first install : 
+> create a folder named 'locale' at root of your project and for each language you want to provide , create a folder with that language code 
+> example : fa 
 
 # 2
 > settings.py :
