@@ -1,0 +1,18 @@
+# 1 
+> write this code on top of the html file :
+{% load i18n %}
+
+# 2
+> put string that you wanna translate in this tag:
+{% trans 'a random string' %}
+
+# 3
+> in shell:
+django-admin makemessages
+
+# 4
+> translate the string in *.po file 
+
+# 5 
+> in shell :
+django-admin compilemessages
