@@ -1,0 +1,16 @@
+# 1
+pip install django-translated-fields
+
+# 2
+in settings.py : 
+add to installed apps ===> translated_fields
+
+# 3
+in models.py : 
+from translated_fields import TranslatedField
+the_field = TranslatedField( models.CharField(default='') )
+
+# 4
+in command line: 
+makemigrations 
+migrate
